@@ -103,6 +103,14 @@ div:not(#innovation) p {
 	box-shadow: 1px 1px 5px black;
 }
 
+hr {
+	margin-top: 4em;
+}
+
+footer {
+	margin-left: 1em;
+}
+
 nav a {
 	flex-basis: 80%;
 	vertical-align: bottom;
@@ -190,13 +198,14 @@ footer span, address {
 	width: 30%;
 	padding: .5em 1em;
 	background: rgba(255,255,255,0.4);
-	box-shadow: 1px 2px 5px rgba(50,50,50,0.7);
+	box-shadow: 1px 1px 5px black;
 }
 
 #copyright {
 	margin-top: 1em;
 	display: block;
 	text-align: center;
+	font-weight: bold;
 }
 
 @keyframes pulse {
